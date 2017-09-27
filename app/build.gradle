@@ -23,8 +23,8 @@ ext{
     artifact ='hfjson'
     libraryDescription ='This is a Json Parsing Library'
 
-    siteUrl ='https://github.com/hisnow/hfjson'
-    gitUrl ='https://github.com/hisnow/hfjson.git'
+    siteUrl ='https://github.com/z-hang-min/Hfjson'
+    gitUrl ='https://github.com/z-hang-min/Hfjson.git'
 
     libraryVersion ='1.0.0'
 
