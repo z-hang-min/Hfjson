@@ -26,7 +26,7 @@ ext{
     siteUrl ='https://github.com/z-hang-min/Hfjson'
     gitUrl ='https://github.com/z-hang-min/Hfjson.git'
 
-    libraryVersion ='1.0.0'
+    libraryVersion ='1.0.1'
 
     developerId ='hisnow'
     developerName ='hisnow'
@@ -39,4 +39,5 @@ ext{
 }
 apply from :"install.gradle"
 apply from :"bintray.gradle"
+//执行gradlew install gradlew bintrayUpload
 
