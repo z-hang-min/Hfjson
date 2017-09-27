@@ -1,0 +1,42 @@
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0.0"
+    }
+    buildTypes {
+
+    }
+
+}
+
+
+ext{
+    bintrayRepo ='maven'
+    bintrayName ='hfjson'//发布到Jcenter上项目的名字
+    publishedGroupId ='com.hisnow.hfjson'
+    libraryName ='hfjson'
+    artifact ='hfjson'
+    libraryDescription ='This is a Json Parsing Library'
+
+    siteUrl ='https://github.com/hisnow/hfjson'
+    gitUrl ='https://github.com/hisnow/hfjson.git'
+
+    libraryVersion ='1.0.0'
+
+    developerId ='hisnow'
+    developerName ='hisnow'
+    developerEmail ='zhang.mim.min0103@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+}
+apply from :"install.gradle"
+apply from :"bintray.gradle"
+
